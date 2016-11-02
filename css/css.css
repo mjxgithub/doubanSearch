@@ -1,0 +1,196 @@
+body,h1,h2,h3,h4,h5,h6,p,input,ul,dl,dt,dd,li,img,ol{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+}
+#top{
+	width:100%;
+	height: 100%;
+}
+#woqu{
+	width:100%;
+	height: 100%;
+}
+#searchDiv{
+	width:90%;
+	height: 6%;
+	margin: 2% 5%;
+	font-size: 0;
+	display: box;
+}
+#searchDiv input:nth-child(1){
+	width:70%;
+	height:100%;
+	-webkit-box-sizing: border-box;
+	outline:none;
+	float: left;
+	font-size: 16px;
+}
+#searchDiv input:nth-child(2){
+	width:28%;
+	height:100%;
+	outline: none;
+	border: 0;
+	float: right;
+	font-size: 16px;
+	color:white;
+	background:lightgrey;
+	cursor: pointer;
+}
+.content{
+	width:90%;
+	height: 80%;
+	margin: 0 5%;
+	overflow: hidden;
+}
+.content .innerbox{
+	width:100%;
+	min-height: 110%;
+	max-height: none;
+}
+#footer{
+	width:100%;
+	height: 10%;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	-webkit-box-align: center;
+	background: #222;
+}
+#footer a{
+	display:block;
+	-webkit-box-flex: 1;
+	color:white;
+	background: #222;
+	text-align: center;
+}
+.content .innerbox .movieDiv{
+	width:100%;
+	height:6rem;
+	margin-bottom:0.4rem;
+}
+.content .innerbox .movieDiv .left{
+	width:30%;
+	height:6rem;
+	float: left;
+}
+.content .innerbox .movieDiv .left img{
+	width:100%;
+	height: 6rem;
+	display: block;
+}
+.content .innerbox .movieDiv .right{
+	font-size:0.5rem;
+	line-height:1rem;
+	width:65%;
+	height:6rem;
+	float: right;
+}
+.content .innerbox .movieDiv .right p{
+	color:lightskyblue;
+	width:100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.content .innerbox .movieDiv .right p span{
+	color:#222;
+	font-size:0.5rem;
+	line-height:1rem;
+}
+.content .innerbox .movieDiv .right a{
+	text-align: center;
+	display: block;
+	width:30%;
+	height:1rem;
+	background: #999999;
+	color: white;
+	margin: 0 15%;
+}
+
+
+
+
+
+
+
+
+.content .innerbox .musicDiv{
+	width:100%;
+	height:7rem;
+	margin-bottom:0.4rem;
+}
+.content .innerbox .musicDiv .left{
+	width:4rem;
+	height:4rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.content .innerbox .musicDiv .left img{
+	width:100%;
+	height:100%;
+}
+.content .innerbox .musicDiv .right{
+	position: relative;
+	font-size:0.5rem;
+	line-height:1rem;
+	width:100%;
+	height:3rem;
+}
+.content .innerbox .musicDiv .right p{
+	color:lightskyblue;
+	width:50%;
+	float: left;
+}
+.content .innerbox .musicDiv .right p b{
+	float: left;
+}
+.content .innerbox .musicDiv .right p span{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width:70%;	
+	float:left;
+	color:#222;
+	font-size:0.5rem;
+	line-height:1rem;
+}
+.content .innerbox .musicDiv .right a{
+	text-align: center;
+	position: absolute;
+	display: block;
+	width:30%;
+	height:1rem;
+	background: #999999;
+	color: white;
+	left: 35%;
+	bottom: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

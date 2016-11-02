@@ -1,0 +1,39 @@
+<div  ng-controller="movieCtrl" id="woqu">
+	<div id="searchDiv">
+	<input type="text" ng-model="searchData" />
+	<input type="button" name="" id="" value="search" ng-click="searchIt()"/>
+</div>
+<div class="content">
+	<div  class="innerbox" ng-model="arr">
+		<div ng-repeat="data in arr" class="movieDiv" >
+			<div class="left"><img src="{{data.images.small}} " alt="" /></div>
+			<div class="right">
+				<p>名称&nbsp;<span>{{data.title}}</span></p>
+				<p>演员&nbsp;<span ng-repeat="daa in data.casts">{{daa.name}}&nbsp;</span></p>
+				<p>评分&nbsp;<span>{{data.rating.average}}</span></p>
+				<p>年份&nbsp;<span>{{data.year}}</span>年</p>
+				<p>标签&nbsp;<span ng-repeat="da in data.genres">{{da}}&nbsp;</span></p>
+				<a href="https://m.douban.com/movie/subject/{{data.id}}">去豆瓣</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

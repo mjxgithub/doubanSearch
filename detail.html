@@ -1,0 +1,12 @@
+<div id="woqu" ng-controller="detailCtrl">
+	<div id="searchDiv"></div>
+	<div class="content">
+		<div  class="innerbox" ng-model="detailData">
+			<img src="{{detailData.image}}" alt="" />
+			<p>{{detailData.title}}</p>
+			<p>{{detailData.publisher}}</p>
+			<p>{{detailData.translator[0]}}</p>
+			<p>{{detailData.summary}}</p>
+		</div>
+	</div>
+</div>

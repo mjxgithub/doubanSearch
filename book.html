@@ -1,0 +1,22 @@
+<div id="woqu" ng-controller="bookCtrl">
+	<div id="searchDiv">
+		<input type="text" ng-model="searchData" />
+		<input type="button" name="" id="" value="search" ng-click="searchIt()"/>
+	</div>
+	<div class="content">
+		<div  class="innerbox" ng-model="arr">
+			<div ng-repeat="data in arr" class="movieDiv">
+				<div class="left"><img src="{{data.image}}" alt="" /></div>
+				<a class="right" href="#detail/{{data.id}}">
+					<p>名称&nbsp;<span>{{data.title}}</span></p>
+					<p>作者&nbsp;<span>{{data.author[0]}}&nbsp;</span></p>
+					<p>出版&nbsp;<span>{{data.publisher}}</span></p>
+					<p>价格&nbsp;<span>{{data.price}}</span></p>
+					<p>页数&nbsp;<span>{{data.pages}}&nbsp;</span></p>
+					<a href="https://m.douban.com/book/subject/{{data.id}}">去豆瓣</a>
+				</a>
+			</div>
+		</div>
+	</div>
+
+</div>

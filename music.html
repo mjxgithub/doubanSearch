@@ -1,0 +1,20 @@
+<div ng-controller="musicCtrl" id="woqu">
+	<div id="searchDiv">
+	<input type="text" ng-model="searchData" />
+	<input type="button" name="" id="" value="search" ng-click="searchIt()"/>
+</div>
+<div class="content" >
+	<div  class="innerbox" ng-model="arr">
+		<div ng-repeat="data in arr" class="musicDiv">
+			<div class="left"><img src="{{data.image}} " alt="" /></div>
+			<div class="right">
+				<p><b>曲目&nbsp;</b><span>{{data.title}}</span></p>
+				<p><b>演唱&nbsp;</b><span>{{data.author[0].name}}</span></p>				
+				<p><b>时间&nbsp;</b><span>{{data.attrs.pubdate[0]}}</span></p>
+				<p><b>评分&nbsp;</b><span>{{data.rating.average}}</span></p>
+				<a href="https://m.douban.com/music/subject/{{data.id}}">去豆瓣</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
